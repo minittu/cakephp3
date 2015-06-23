@@ -38,6 +38,9 @@ começar a trabalhar.
     5) Fui no arquivo php.ini e habilitei o plugin intl;
     6) Realizado o passo acima, o cake ficou pronto para o uso, faltando realizar algumas configurações de banco de dados, na qual demonstrarei o que foi feito a seguir;
     
+    Ps.: A instalação do cake no windows, pode ser visualizado neste vídeo localizado no youtube: https://youtu.be/lpvXcp89BKw.
+    
+    
 ##  Configuração
 
 Após realizar a instalação do cake e deixa-lo pronto pra uso, notei que havia na pagina principal do meu projeto uma informação sobre o banco de dados, no qual não estava configurado. Por isso, realizei os seguintes passos:
