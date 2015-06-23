@@ -31,10 +31,10 @@
 Abaixo seguem os passos que utilizei para instalar o cakephp , o banco de dados e deixá-lo pronto para 
 começar a trabalhar.
 
-    1) Primeiramente realizei o download do cakephp 3.0;
-    2) Feito isso, instalei o composer no windows e extraí os arquivos do cake dentro de uma pasta no meu localhost;
-    3) Após ter realizado a descompactação executei o install do composer para identificar as dependências e plugins do cake;
-    4) Após realizado o passo anterior, acessei a url localhost/meuProjeto, onde se localizavam os arquivos extraidos do cake, e ness página aparecia uma mensgem informando que necessitava habilitar o plugin intl do php;
+    1) Baixei e instalei o composer;
+    2) Feito isso, cliquei com o botao direito do mouse dentro da pasta htdocs( pasta com os arquivos no servidor local ) e cliquei na opção composer here;
+    3) Abriu um command do composer, fui até a pasta onde está o localhost, e digitei o comando 'composer create-project --prefer-dist cakephp/app [app_name]';
+    4) Após realizado o passo anterior, acessei a url localhost/meuProjeto, onde se localizavam os arquivos extraidos do cake, e nessa página aparecia uma mensgem informando que necessitava habilitar o plugin intl do php;
     5) Fui no arquivo php.ini e habilitei o plugin intl;
     6) Realizado o passo acima, o cake ficou pronto para o uso, faltando realizar algumas configurações de banco de dados, na qual demonstrarei o que foi feito a seguir;
     
